@@ -4,54 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      .md {
-        background-color: rgb(134, 125, 128);
-        display: grid;
-        padding: 10px;
-        grid-template-areas:
-          "area1 area2 area3"
-          "area4 area6 area6"
-          "area5 area6 area6";
-          grid-template-rows: 50px 50px 50px;
-          gap: 10px;
-        
-         
-      }
-      .item1 {
-        background-color: aqua;
-        grid-area: area1;
-      }
-      .item2 {
-        background-color: rgb(175, 110, 244);
-        grid-area: area2;
-      }
-      .item3 {
-        background-color: rgb(204, 215, 215);
-        grid-area: area3;
-      }
-      .item4 {
-        background-color: pink;
-        grid-area: area4;
-      }
-      .item5 {
-        background-color: yellow;
-        grid-area: area5;
-      }
-      .item6 {
-        background-color: green;
-        grid-area: area6;
-      }
-    </style>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
+    <div class="main">
+    <h3>box-1</h3>
     <div class="md">
-    <div class="item1">item1</div>
-    <div class="item2">item2</div>
-    <div class="item3">item3</div>
-    <div class="item4">item4</div>
-    <div class="item5">item5</div>
-    <div class="item6">item6</div>
-   </div>
+      <div class="item1">item1</div>
+      <div class="item2">item2</div>
+      <div class="item3">item3</div>
+      <div class="item4">item4</div>
+      <div class="item5">item5</div>
+      <div class="item6">item6</div>
+    </div>
+    <h3>box-2</h3>
+    <div class="md-2">
+      <div class="item-1"></div>
+      <div class="item-2"></div>
+      <div class="item-3"></div>
+      <div class="item-4"></div>
+      <div class="item-5"></div>
+      <div class="item-6"></div>
+      <div class="item-7"></div>
+      <div class="item-8"></div>
+
+    </div>
+    <h3>box-3</h3>
+    <div class="md-3">
+      <div class="item--1">item1</div>
+      <div class="item--2">item2</div>
+      <div class="item--3">item3</div>
+      <div class="item--4">item4</div>
+      <div class="item--5">item5</div>
+      <div class="item--6">item6</div>
+      <div class="item--7">item7</div>
+      <div class="item--8">item8</div>
+    </div>
+  </div>
   </body>
 </html>
