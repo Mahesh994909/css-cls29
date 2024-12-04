@@ -48,7 +48,7 @@ h3 {
     "a7 a8 a8 a8 a4 a5 a6"
     "a7 a8 a8 a8 a4 a5 a6";
   grid-template-rows: 50px 50px 50px;
-  grid-template-columns: 50px 50px 50px 30px 40px 50px 10px;
+  /* grid-template-columns: 50px 50px 50px 30px 40px 50px 10px; */
   gap: 5px;
 }
 .item-1 {
@@ -73,6 +73,7 @@ h3 {
 }
 .item-6 {
   background-color: rgb(17, 228, 17);
+  width: 20px;
   grid-area: a6;
 }
 .item-7 {
